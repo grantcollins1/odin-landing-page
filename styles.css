@@ -97,13 +97,14 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 50px;
+  gap: 50px;
 }
 
 .middle-text {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
-  margin: 50px;
 }
 
 .middle-cards {
@@ -114,8 +115,9 @@ button {
 .quote-space {
   background-color: #E5E7EB;
   display: flex;
-  justify-content: center;
-  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px;
 }
 
 .quote-text {
@@ -124,4 +126,36 @@ button {
   font-weight: light;
   font-style: italic;
   color: #1F2937;
+}
+.quote-author {
+  text-align: end;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 500px;
+}
+
+.action-space {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+}
+
+.action-box {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.action-emphasis {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.action-box button {
+  border: 1px solid white;
+  padding: 0px;
 }
